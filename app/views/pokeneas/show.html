@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokenea</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pokenea</h1>
+        <div id="pokenea-info">
+            <img id="pokenea-imagen" src="" alt="Pokenea">
+            <p id="pokenea-frase"></p>
+            <p><strong>Container ID:</strong> <span id="container-id"></span></p>
+        </div>
+    </div>  
+
+    <script>
+        fetch('/pokenea')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('pokenea-imagen').src = data.image;
+                document.getElementById('pokenea-frase').textContent = data.phrase;
+                document.getElementById('container-id').textContent = data.container_id;
+            });
+    </script>
+</body>
+</html>
