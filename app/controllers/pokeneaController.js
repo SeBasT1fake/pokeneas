@@ -7,31 +7,19 @@ const getRandomPokenea = () => {
     return pokeneas[randomIndex];
 };
 
+const showImageAndPhrase = (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/pokeneas/show.html'));
+};
+
 const showInfoJSON = (req, res) => {
     const pokenea = getRandomPokenea();
     res.json({
         id: pokenea.id,
         name: pokenea.name,
-        height: pokenea.height,
-        ability: pokenea.ability,
-        container_id: process.env.CONTAINER_ID || 'local'
+        image: pokenea.image,
+        phrase: pokenea.phrase,
+        container_id: os.hostname()
     });
 };
 
-const showImageAndPhrase = (req, res) => {
-    res.sendFile(path.join(__dirname, '../views/pokeneas/show.html'));
-};
-
-const getPokeneaData = (req, res) => {
-    const containerName = os.hostname();
-    
-    const data = {
-        imagen: 'ruta_de_tu_imagen',
-        frase: 'Frase aleatoria del pokenea',
-        containerName: containerName
-    };
-    
-    res.json(data);
-};
-
-module.exports = { showInfoJSON, showImageAndPhrase, getPokeneaData };
+module.exports = { showInfoJSON, showImageAndPhrase };
