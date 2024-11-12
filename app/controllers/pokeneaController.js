@@ -1,6 +1,8 @@
 const pokeneas = require('../data/pokeneas');
 const path = require('path');
 const os = require('os');
+const path = require('path');
+const os = require('os');
 
 const getRandomPokenea = () => {
     const randomIndex = Math.floor(Math.random() * pokeneas.length);
@@ -22,4 +24,4 @@ const showInfoJSON = (req, res) => {
     });
 };
 
-module.exports = { showInfoJSON, showImageAndPhrase };
+module.exports = { showInfoJSON, showImageAndPhrase, getPokeneaData };
