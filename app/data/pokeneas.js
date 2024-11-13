@@ -4,7 +4,7 @@ const pokeneas = [
         name: 'Sopleasur',
         height: '1.2 m',
         ability: 'Sople masivo',
-        image: 'https://storage.cloud.google.com/imagenes-pokeneas/OIP.jpg?authuser=1',
+        image: 'https://storage.googleapis.com/imagenes-pokeneas/OIP.jpg',
         phrase: 'Nunca dejes de volar alto.'
     },
     {
@@ -12,7 +12,7 @@ const pokeneas = [
         name: 'Pepapod',
         height: '0.8 m',
         ability: 'Extacido',
-        image: 'https://storage.cloud.google.com/imagenes-pokeneas/gafas.jpg?authuser=1',
+        image: 'https://storage.googleapis.com/imagenes-pokeneas/gafas.jpg',
         phrase: 'Una vez al año no hace daño.'
     },
     {
@@ -20,7 +20,7 @@ const pokeneas = [
         name: "Flamequillo",
         height: "1.5 m", 
         ability: "Fuego eterno",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/gato.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/gato.jpg",
         phrase: "El fuego nunca se apaga si tienes pasión."
     },
     {
@@ -28,7 +28,7 @@ const pokeneas = [
         name: "Acuapuff",
         height: "1.0 m",
         ability: "Nube de agua", 
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/goofy.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/goofy.jpg",
         phrase: "La vida es mejor bajo la lluvia."
     },
     {
@@ -36,7 +36,7 @@ const pokeneas = [
         name: "Terrapato",
         height: "0.5 m",
         ability: "Escudo de tierra",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/jmmmm.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/jmmmm.jpg",
         phrase: "Soy la roca en la que te puedes apoyar."
     },
     {
@@ -44,7 +44,7 @@ const pokeneas = [
         name: "Electrizor",
         height: "1.3 m",
         ability: "Carga eléctrica",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/manzana.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/manzana.jpg",
         phrase: "La energía nunca se detiene."
 
     },
@@ -53,7 +53,7 @@ const pokeneas = [
         name: "Sombracielos",
         height: "2.0 m",
         ability: "Niebla oscura",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/minion.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/minion.jpg",
         phrase: "A veces, la oscuridad es el mejor refugio."
     },
     {
@@ -61,7 +61,7 @@ const pokeneas = [
         name: "Chamberder",
         height: "1.1 m",
         ability: "Cegado eterno",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/pikasapo.jpg?authuser=1",
+        image: "hhttps://storage.googleapis.com/imagenes-pokeneas/pikasapo.jpg",
         phrase: "Lo barato sale caro."
     },
     {
@@ -69,7 +69,7 @@ const pokeneas = [
         name: "Tussieve",
         height: "1.4 m",
         ability: "Coctel narcotico",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/sherk.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/sherk.jpg",
         phrase: "Pruebe que eso pega rico."
     },
     {
@@ -77,7 +77,7 @@ const pokeneas = [
         name: "Basuchu",
         height: "1.6 m",
         ability: "Lanzamiento de basuco",
-        image: "https://storage.cloud.google.com/imagenes-pokeneas/tiburon.jpg?authuser=1",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/tiburon.jpg",
         phrase: "Basuco impacto."
     }
 ];
