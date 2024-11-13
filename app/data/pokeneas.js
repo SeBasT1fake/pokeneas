@@ -61,7 +61,7 @@ const pokeneas = [
         name: "Chamberder",
         height: "1.1 m",
         ability: "Cegado eterno",
-        image: "hhttps://storage.googleapis.com/imagenes-pokeneas/pikasapo.jpg",
+        image: "https://storage.googleapis.com/imagenes-pokeneas/pikasapo.jpg",
         phrase: "Lo barato sale caro."
     },
     {
